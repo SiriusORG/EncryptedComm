@@ -96,7 +96,7 @@ void AES_CTR_xcrypt_buffer(struct AES_ctx* ctx, uint8_t* buf, size_t length);
 
 #include "stdbool.h"
 #include "stdint.h"
-
+#include "communicationmanager.h"
 
 
 /*
